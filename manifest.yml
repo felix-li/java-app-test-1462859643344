@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: java-app-test
+  host: java-app-test
+  disk_quota: 1024M
+  services:
+  - Insights for Twitter-d6
